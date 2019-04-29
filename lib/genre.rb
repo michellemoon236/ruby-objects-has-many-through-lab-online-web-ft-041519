@@ -1,3 +1,5 @@
+require 'pry'
+
 class Genre 
   
   attr_accessor :name
@@ -9,6 +11,7 @@ class Genre
   end 
   
   def self.all
+    binding.pry
     @@all
   end
   
